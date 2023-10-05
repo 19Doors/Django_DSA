@@ -17,7 +17,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include,path
 
+from AlgoViz import views
+
 urlpatterns = [
+    
+    path('data_structure/', views.data_structure_view),
+    path('algorithm/', views.algorithm_view),
     path('admin/', admin.site.urls),
     path('', include("Webpage.urls"))
 ]
