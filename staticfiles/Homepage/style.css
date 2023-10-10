@@ -50,63 +50,14 @@
 
   min-width: 1610px;
   display: flex;
+  justify-content: space-between;
 }
 
 .hero_section_left {
-  width: 1200px;
+  width: 1000px;
 }
 
 .hero_section_right {
-}
-
-.hero_section_images_top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero_section_images_top div {
-  margin: 40px 100px 150px 100px;
-}
-
-.hero_section_images_top div img {
-  margin-bottom: 20px;
-}
-
-.hero_section_images_top div p {
-  font-family: source-sans-pro;
-  display: inline;
-  margin: 0px 0px 0px 80px;
-  font-weight: bold;
-}
-
-.hero_section_images_bot {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero_section_images_bot div {
-}
-
-.hero_section_images_bot div p {
-  font-family: source-sans-pro;
-  display: inline;
-  margin: 0px 0px 0px 180px;
-  font-weight: bold;
-}
-
-.hero_section_images_bot .StackT {
-  margin: 0px 0px 0px 170px;
-}
-
-.hero_section_images_bot .ArrayT {
-  margin: 0px 0px 0px 300px;
-}
-
-.hero_section_images_bot .hero_section_stack {
-  margin: 0px 0px 0px 150px;
-}
-.hero_section_images_bot .hero_section_array {
-  margin: 0px 50px 10px 200px;
 }
 
 .hero_section_FHead {
