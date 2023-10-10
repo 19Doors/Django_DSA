@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #F4F7FA;
+}
+
+.nav {
+  margin: 10px 66px 10px 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  border: 1px solid #000;
+  width: 90px;
+  height: auto;
+}
+
+.nav_links {
+}
+
+.nav_links ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.nav_links ul li {
+  list-style: none;
+}
+
+.nav_links ul li a {
+  text-decoration: none;
+  font-family: source-sans-pro, sans;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0px 34px 0px 34px;
+  color: #333333;
+}
+
+.nav_links ul li .active {
+  font-weight: 900;
+}
+
+.hero_section {
+  margin: 120px 90px 10px 90px;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+
+  min-width: 1610px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_section_left {
+  border: 1px solid red;
+  width: 1000px;
+}
+
+.hero_section_right {
+  border: 1px solid blue;
+}
+
+.hero_section_FHead {
+  font-size: 54px;
+  font-weight: 200;
+  padding: 30px;
+  border: 1px solid #000;
+  text-align: center;
+  max-width: 80%;
+}
+
+.hero_section_FText {
+  padding: 100px 0px 0px 100px;
+  font-family: source-sans-pro, sans-serif;
+  color: #333333;
+  font-size: 20px;
+  text-align: center;
+  max-width: 60%;
+  line-height: 1.2;
+}

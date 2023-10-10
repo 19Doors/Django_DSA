@@ -1,61 +1,50 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>AlgoViz</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-		<link href="style.css" rel="stylesheet">
-=======
-		{% load static %}
-		<link href="{% static 'Homepage/index.css' %}" rel="stylesheet">
->>>>>>> 25fc1360393140ebc443e76d6b05e223c5108830
+		<link href="{% static 'Homepage/style.css' %}" rel="stylesheet">
 	</head>
 	
 	<body>
-		<img src="C:\Users\rishi\OneDrive\Pictures\AlgoViz-logos_black.png" align="right">
 		
-		<nav>	
-		<div class="topnav">
-				<ul>
-					<li><a href="#contactus">Contact Us</a></li>
-					<li><a href="#aboutus">About Us</a></li>
-					<li><a href="#algorithms">Algorithms</a></li>
-					<li><a href="#datastructures">Data Structures</a></li>
-					<li><a href="#home" class="active">Home</a></li>
-				</ul>
-			</div>
-		</nav>
-		<br><br>
-		
-		<p><h1><b>Unlock</b> the World of Algorithms with AlgoViz</h1></p>
+		<div class="nav">
+		  <img src="{% static 'images/AlgoViz-logos_black.png' %}">
+		    <div class="nav_links">
+		      <ul>
+			<li><a href="#contactus">Contact Us</a></li>
+			<li><a href="#aboutus">About Us</a></li>
+			<li><a href="#algorithms">Algorithms</a></li>
+			<li><a href="#datastructures">Data Structures</a></li>
+			<li><a href="#home" class="active">Home</a></li>
+		      </ul>
+		    </div>
+		</div>
 
-		<p style: text-align="centre">
-			Welcome to Algoviz, where the world of algorithms unfold before your eyes.
+		<div class="hero_section">
+
+		  <div class="hero_section_left">
+		  <p class="hero_section_FHead"><b>Unlock</b> the World of Algorithms with AlgoViz.</p>
+		
+
+		  <p class="hero_section_FText"> Welcome to Algoviz, where the world of algorithms unfold before your eyes.
 			Our innovative platform offers a captivating learning experience thet goes beyond textbooks and lectures.
 			Dive int the core of computational problem-solving through dynamic visualizations that bring algoriths to life.
 			Whether you're a student eager to conquer computer science or a curious mind lookingto expand your knowledge, 
 			AlgoViz empowers you to explore, experiment and elevate your understanding. Join us on this 
 			interactive journey and unlock the limitless possibilites of algorithm thinking.
-		</p>
-		
-		<div class="row">
-			<div class="column">
-				<img src = "C:\Users\rishi\OneDrive\Pictures\WhatsApp Image 2023-10-06 at 19.23.15_fcee3cfa.jpg" style: width="50%%">
-			</div>
-			<div class="column">
-				<img src = "C:\Users\rishi\OneDrive\Pictures\WhatsApp Image 2023-10-06 at 19.23.16_7d2c23a9.jpg" style: width="50%">
-			</div>
+		  </p>
+		  </div>
+
+		  <div class="hero_section_right">
+		    <img src="{% static 'images/Array.png' %}">
+		    <img src="{% static 'images/Stack.png' %}">
+		    <img src="{% static 'images/Tree_1.png' %}">
+		    <img src="{% static 'images/Graph_1.png' %}">
+		  </div>
 		</div>
 		
-		<div class="row">
-			<div class="column">
-				<img src="C:\Users\rishi\OneDrive\Pictures\WhatsApp Image 2023-10-06 at 19.23.16_29f9ace6.jpg" style: width="50%">
-				<div class="column">
-					<img src="C:\Users\rishi\OneDrive\Pictures\WhatsApp Image 2023-10-06 at 19.23.16_3649e7d7.jpg" style: width="50%">
-				</div>
-			</div>
-		</div>
-	</div>
 </body>
 </html>
