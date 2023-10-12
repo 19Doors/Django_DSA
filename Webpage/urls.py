@@ -5,7 +5,7 @@ from data_structure import views as datastrucviews
 
 urlpatterns = [
     path("",views.index, name="index"),
-    path("algorithms", algoviews.algorithm_view, name="algorithms"),
+    path("algorithms",include('algorithms.urls')), 
     path("datastructures", datastrucviews.data_structure_view, name="data_structures"),
     path("contact",views.contact, name="contact"),
     path("about",views.about, name="about"),

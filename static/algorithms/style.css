@@ -1,0 +1,62 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://use.typekit.net/fmw4ovy.css");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #333333;
+}
+
+.hero_section {
+  margin: 0px 90px 172px 90px;
+  font-family: 'Poppins', sans-serif;
+  color: #333333;
+
+  min-width: 1788px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_section .FText {
+  font-size: 40px;
+  font-weight: 300;
+
+  padding: 40px 58px;
+} 
+
+.hero_section p b{
+  font-size: 96px;
+}
+
+.algorithms {
+}
+
+.algorithms .bubblesort {
+  background: #333333;
+  max-width: 289px;
+
+  margin: 40px 0px 0px 0px;
+
+  border: 3px solid #333333;
+}
+
+.algorithms .bubblesort a {
+  background: #333333;
+
+}
+
+.algorithms .bubblesort a p {
+  background: #333333;
+  color: #F4F7FA;
+
+  margin: 0px 0px 0px 14px;
+  padding: 0px 0px 4px 0px;
+
+  font-size: 12px;
+  font-weight: 600;
+
+  font-family: 'Manrope', sans-serif;
+
+}

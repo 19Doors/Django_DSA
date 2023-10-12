@@ -1,7 +1,9 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create ur views here.
 
 def algorithm_view(request):
-    return HttpResponse('This is the algorithm page.')
+    return render(request, "algorithms.html")
+
+def algorithm_bubblesort(request):
+    return render(request, "sorting/bubblesort.html")

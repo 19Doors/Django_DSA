@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://use.typekit.net/fmw4ovy.css");
 * {
   margin: 0px;
   padding: 0px;
@@ -32,8 +33,8 @@
 
 .nav_links ul li a {
   text-decoration: none;
-  font-family: source-sans-pro, sans;
-  font-weight: 700;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
   font-size: 14px;
   margin: 0px 34px 0px 34px;
   color: #333333;
@@ -44,20 +45,70 @@
 }
 
 .hero_section {
-  margin: 120px 90px 10px 90px;
+  margin: 120px 90px 172px 90px;
   font-family: 'Poppins', sans-serif;
   color: #333333;
 
   min-width: 1610px;
   display: flex;
-  justify-content: space-between;
 }
 
 .hero_section_left {
-  width: 1000px;
+  width: 1200px;
 }
 
 .hero_section_right {
+}
+
+.hero_section_images_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_section_images_top div {
+  margin: 40px 100px 120px 100px;
+}
+
+.hero_section_images_top div img {
+  margin-bottom: 20px;
+}
+
+.hero_section_images_top div p {
+  font-family: source-sans-pro;
+  display: inline;
+  margin: 0px 0px 0px 80px;
+  font-weight: bold;
+}
+
+.hero_section_images_bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero_section_images_bot div {
+}
+
+.hero_section_images_bot div p {
+  font-family: source-sans-pro, sans-serif;
+  display: inline;
+  margin: 0px 0px 0px 180px;
+  font-weight: bold;
+}
+
+.hero_section_images_bot .StackT {
+  margin: 0px 0px 0px 175px;
+}
+
+.hero_section_images_bot .ArrayT {
+  margin: 0px 0px 0px 330px;
+}
+
+.hero_section_images_bot .hero_section_stack {
+  margin: 0px 0px 0px 150px;
+}
+
+.hero_section_images_bot .hero_section_array {
+  margin: 0px 50px 10px 200px;
 }
 
 .hero_section_FHead {
@@ -69,11 +120,85 @@
 }
 
 .hero_section_FText {
-  padding: 100px 0px 0px 100px;
+  padding: 80px 0px 0px 20px;
   font-family: source-sans-pro, sans-serif;
   color: #333333;
-  font-size: 20px;
+  font-size: 23px;
+  font-weight: 300;
   text-align: center;
-  max-width: 60%;
+  max-width: 85%;
   line-height: 1.2;
 }
+
+.footer {
+  background: #333333;
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer_left {
+  background: #333333;
+  display: flex;
+}
+
+.footer .footer_left img {
+  display: block;
+  width: 180px;
+  height: auto;
+  background: #333333;
+}
+
+.footer .footer_left .line {
+  background: #333333;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.footer .footer_left .line p {
+  background: #333333;
+  color: #F4F7FA;
+}
+
+.footer .footer_left .nav_links {
+  background: #333333;
+  display: flex;
+  flex-direction: row-reversed;
+  align-items: center;
+}
+
+.footer .footer_left .nav_links ul li {
+  background: #333333;
+}
+
+.footer .footer_left .nav_links ul li a {
+
+  font-family: source-sans-pro, sans-serif;
+  background: #333333;
+  color: #F4F7FA;
+}
+
+.footer .footer_right {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  padding: 34px 60px 34px 60px;
+  background: #333333;
+
+}
+
+.footer .footer_right p {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+  background: #333333;
+  color: #F4F7FA;
+  font-size: 20px;
+}
+
+.footer .footer_right b {
+  color: #F76C6C;
+  background: #333333;
+  font-size: 32px;
+}
+
