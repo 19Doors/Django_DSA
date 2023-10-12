@@ -45,7 +45,7 @@
 }
 
 .hero_section {
-  margin: 120px 90px 10px 90px;
+  margin: 120px 90px 172px 90px;
   font-family: 'Poppins', sans-serif;
   color: #333333;
 
@@ -128,4 +128,44 @@
   text-align: center;
   max-width: 85%;
   line-height: 1.2;
+}
+
+.footer {
+  background: #333333;
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer_left {
+  background: #333333;
+}
+
+.footer .footer_left img {
+  display: block;
+  width: 100px;
+  height: auto;
+  background: #333333;
+}
+
+.footer .footer_right {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  padding: 34px 60px 34px 60px;
+  background: #333333;
+}
+
+.footer .footer_right p {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+  background: #333333;
+  color: #F4F7FA;
+  font-size: 20px;
+}
+
+.footer .footer_right b {
+  color: #F76C6C;
+  background: #333333;
+  font-size: 32px;
 }
