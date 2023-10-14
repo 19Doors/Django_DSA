@@ -9,26 +9,35 @@
   background: #F4F7FA;
 }
 
+.graph svg {
+  background: #333333;
+}
+
 .herosection {
   min-width: 1788px;
   margin: 0px 90px 172px 90px;
   color: #333333;
+
+  display: flex;
 }
 
-.herosection .heading {
+.herosection .leftSide {
+  min-width: 60%;
+  max-width: 60%;
+}
+
+.herosection .leftSide .heading {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 200;
   padding: 10px 58px;
 }
 
-.herosection .heading b {
+.herosection .leftSide .heading b {
   font-size: 96px;
 }
 
-.herosection .visualization {
-  border: 1px solid #000;
-
+.herosection .leftSide .visualization {
   min-height: 500px;
   margin: 0px 58px;
 
@@ -37,7 +46,7 @@
   justify-content: center;
 }
 
-.herosection .visualization .value {
+.herosection .leftSide .visualization .value {
   width: 40px;
   height: 40px;
 
@@ -55,7 +64,7 @@
   background: #F76C6C;
 }
 
-.herosection .visualization .value p{
+.herosection .leftSide .visualization .value p{
   font-family: 'Manrope', sans-serif;
   font-size: 20px;
   font-weight: 900;
@@ -63,13 +72,13 @@
   background: inherit;
 }
 
-.herosection .inputs {
+.herosection .leftSide .inputs {
   display: flex;
   margin: 10px 0px;
   padding: 10px 58px;
 } 
 
-.herosection .inputs .numberinput {
+.herosection .leftSide .inputs .numberinput {
   font-family: source-sans-pro, sans-serif;
 
   min-width: 150px;
@@ -83,7 +92,8 @@
   border: 3px solid #333333;
 } 
 
-.herosection .inputs .inputbutton, .sortbutton {
+
+.herosection .leftSide .inputs .inputbutton, .sortbutton {
   font-family: source-sans-pro, sans-serif;
   font-size: 13px;
   font-weight: 900;
@@ -98,9 +108,12 @@
   color: #F4F7FA;
 }
 
-.herosection .inputs .sortbutton {
+.herosection .leftSide .inputs .sortbutton {
   font-family: source-sans-pro, sans-serif;
   
   margin: 0px 8px;
+}
 
+.herosection .rightSide{
+  margin: 230px 0px 0px 0px;
 }
