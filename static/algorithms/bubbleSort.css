@@ -1,0 +1,106 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://use.typekit.net/fmw4ovy.css");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #F4F7FA;
+}
+
+.herosection {
+  min-width: 1788px;
+  margin: 0px 90px 172px 90px;
+  color: #333333;
+}
+
+.herosection .heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  padding: 10px 58px;
+}
+
+.herosection .heading b {
+  font-size: 96px;
+}
+
+.herosection .visualization {
+  border: 1px solid #000;
+
+  min-height: 500px;
+  margin: 0px 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.herosection .visualization .value {
+  width: 40px;
+  height: 40px;
+
+  margin: 10px 10px;
+  padding: 10px;
+
+  border: 1px solid #000;
+  border-radius: 50%;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background: #F76C6C;
+}
+
+.herosection .visualization .value p{
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+
+  background: inherit;
+}
+
+.herosection .inputs {
+  display: flex;
+  margin: 10px 0px;
+  padding: 10px 58px;
+} 
+
+.herosection .inputs .numberinput {
+  font-family: source-sans-pro, sans-serif;
+
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 77px;
+
+  margin: 0px 8px;
+
+  text-align: center;
+
+  border: 3px solid #333333;
+} 
+
+.herosection .inputs .inputbutton, .sortbutton {
+  font-family: source-sans-pro, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  
+  min-width: 174px;
+  min-height: 77px;
+
+  margin: 0px 8px;
+  padding: 20px;
+
+  background: #333333;
+  color: #F4F7FA;
+}
+
+.herosection .inputs .sortbutton {
+  font-family: source-sans-pro, sans-serif;
+  
+  margin: 0px 8px;
+
+}

@@ -1,12 +1,27 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title></title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="{% static 'algorithms/bubbleSort.css' %}" rel="stylesheet">
+		<script type="module" src="{% static 'javascript/bubbleSort.js' %}"></script>
 	</head>
 	<body>
 	  {% include 'navbar.html' %}
+
+	  <div class="herosection">
+	    <p class="heading"><b>BubbleSort</b> Visualization</p>
+	    <div class="visualization">
+
+	    </div>
+	    <div class="inputs">
+	      <input type="number" name="numberinput" class="numberinput">
+	      <input type="button" name="inputbutton" value="INSERT" class="inputbutton">
+	      <input type="button" name="sortbutton" value="SORT" class="sortbutton">
+	    </div>
+	  </div>
 	
 	</body>
 </html>
