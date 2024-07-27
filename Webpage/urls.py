@@ -4,7 +4,7 @@ from algorithms import views as algoviews
 from data_structure import views as datastrucviews
 
 urlpatterns = [
-    path("",views.index, name="index"),
+    path("",views.index, name="contact"),
     # path("algorithms",include('algorithms.urls')), 
     # path("algorithms", algoviews.algorithm_view, name="algorithms"),
     # path("datastructures", datastrucviews.data_structure_view, name="data_structures"),
