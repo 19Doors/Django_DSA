@@ -6,6 +6,47 @@
   background: #F4F7FA;
 }
 
+<<<<<<< HEAD
+=======
+.nav {
+  margin: 10px 66px 10px 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav img {
+  width: 90px;
+  height: auto;
+}
+
+.nav_links {
+}
+
+.nav_links ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.nav_links ul li {
+  list-style: none;
+}
+
+.nav_links ul li a {
+  text-decoration: none;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0px 34px 0px 34px;
+  color: #333333;
+}
+
+.nav_links ul li .active {
+  font-weight: 900;
+}
+
+>>>>>>> main
 .hero_section {
   margin: 120px 90px 172px 90px;
   font-family: 'Poppins', sans-serif;
